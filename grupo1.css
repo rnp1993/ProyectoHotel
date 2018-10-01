@@ -1,0 +1,129 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background:#333333;
+}
+section1{
+	background: rgba(250,250,250,.8);
+	/* mide el padding por dentro mantiene el ancho */
+	box-sizing:border-box; 
+	margin: 1%;
+	padding: 1rem;
+	font-size:1em;  
+	float:left;
+	/*margin-right:10%;  */
+}
+
+section2{
+	background: rgba(250,250,250,.8);
+	/* mide el padding por dentro mantiene el ancho */
+	box-sizing:border-box; 
+	margin: 1%;
+	padding: 1rem;
+	float:left;
+}
+
+section3{
+	background: rgba(250,250,250,.8);
+	/* mide el padding por dentro mantiene el ancho */
+	box-sizing:border-box; 
+	margin: 1%;
+	padding: 0.8%;
+	float:left;
+}
+
+section4{
+	background: rgba(250,250,250,.8);
+	/* mide el padding por dentro mantiene el ancho */
+	box-sizing:border-box; 
+	margin: 1%;
+	padding: 1rem;
+	float:left;
+}
+
+
+
+img{
+	max-width: 100%;
+	height:auto;
+	/*float:right;  */
+	padding: 1rem;
+	margin-left:22%;
+}
+h1{
+	float:left;
+
+}
+
+@media (min-width: 320px){
+	body{
+	background:#333333;
+	
+	}
+	
+	section1{
+		width: 96%;
+	}
+	section2{
+		width: 96%;
+	}
+	section3{
+		width: 96%;
+	}
+	section4{
+		width: 96%;
+	}
+
+}
+	
+@media (min-width: 768px){
+	body{
+	background:#333333;
+	
+	}
+	
+	section1{
+		width: 31.33%;
+	}
+	section2{
+		width: 31.33%;
+	}
+	section3{
+		width: 31.33%;
+	}
+	section4{
+		width: 96%;
+	}
+
+}
+
+@media (min-width: 1200px){
+	body{
+	background:#333333;
+	
+	}
+	
+	section1{
+		width: 31.33%;
+	}
+	section2{
+		width: 31.33%;;
+	}
+	section3{
+		width: 31.33%;
+	}
+	section4{
+		width: 98%;
+	}
+}
+
+ul{
+	clear:both; /* lo separa del resto */
+}
+
+ul li{
+	font-size:1.1em;
+}
+
+
+
